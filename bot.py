@@ -45,7 +45,7 @@ BOT_TOKENS = [
    "8959088007:AAGrU60uG3xa4jtXT7oToS0T2McXjyku8SM",
 ]
 
-OWNER_ID = 8808478782
+OWNER_ID = 8881218572
 GLOBAL_DELAY = 0.0  # ZERO DELAY - MAXIMUM SPEED
 CURRENT_PREFIX = "."
 
@@ -67,7 +67,7 @@ nc_counters: Dict[int, int] = {}
 spam_counters: Dict[int, int] = {}  # FIXED: Added missing spam_counters
 SUDO_USERS: Set[int] = set()
 ACTIVE_TASKS: Dict[int, str] = {}
-AUTHORIZATION_MSG = "𓆩💢𓆪 𝐎ɴʟʏ 𓆩🕸️⃟𓆪  ⟨⟨ -𝙭𝘼𝙮𝙖𝙖𝙣𝙭𝙃𝙪𝙣𝙩𝙚𝙧𝙯 ⪻ 🎀 ⪼ ⟩⟩ 𓆩🎀⃟𓆪 𝐇ᴀꜱ 𝐀ᴜᴛʜᴏʀɪᴛʏ 𝐓ᴏ 𝐅ᴜᴄᴋ 𝐘ᴏᴜʀ 𝐌ᴏᴍ 𓆩💢𓆪"
+AUTHORIZATION_MSG = "𓆩💢𓆪 𝐎ɴʟʏ 𓆩🕸️⃟𓆪  ⟨⟨ -LORD ⪻ 🎀 ⪼ ⟩⟩ 𓆩🎀⃟𓆪 𝐇ᴀꜱ 𝐀ᴜᴛʜᴏʀɪᴛʏ 𝐓ᴏ 𝐅ᴜᴄᴋ 𝐘ᴏᴜʀ 𝐌ᴏᴍ 𓆩💢𓆪"
 ALL_BOTS = []
 REPLY_BOT = None
 
@@ -1793,8 +1793,8 @@ async def status_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
 𓆩📨𓆪 Ғᴡᴅꜱᴘᴀᴍ Ͳᴀꜱᴋꜱ: {len(fwdspam_tasks)}
 𓆩👑𓆪 Տᴜᴅᴏ Ⴎꜱᴇʀꜱ: {len(SUDO_USERS)}
 𓆩🔥𓆪 Ғʟᴏᴏᴅʟᴇꜱꜱ: ACTIVE
-𓆩👑𓆪 Ꮲᴏᴡᴇʀᴅ Ᏼʏ:@lo0p_m4ster
- ⟨⟨ -𝙭𝘼𝙮𝙖𝙖𝙣𝙭𝙃𝙪𝙣𝙩𝙚𝙧𝙯 ⪻ 🎀 ⪼ ⟩⟩
+𓆩👑𓆪 Ꮲᴏᴡᴇʀᴅ Ᏼʏ:@ll_DARK_GETO_ll
+ ⟨⟨ -LORD ⪻ 🎀 ⪼ ⟩⟩
 """
     await update.effective_message.reply_text(status_text)
     # Send as plain text: the decorative Unicode and underscore in the footer
