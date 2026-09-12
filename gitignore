@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+*.session
+*.session-journal
+sudo.json
+.env
+*.log
+.vscode/
+.idea/
